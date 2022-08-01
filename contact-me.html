@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Plan Questionnaire</title>
+</head>
+<body>
+    <h1 style="text-align:center">BUSINESS PLAN QUESTIONNAIRE</h1>
+    <form action="">
+        <fieldset>
+            <legend><strong> Company Biodata</strong></legend>
+            <p>
+                <b>Company Name:</b>
+                <input type="text" placeholder="Company Name">
+            </p>
+
+            <p>
+                <b>Website Address:</b>
+                <input type="url" required name="url" placeholder="url">
+            </p>
+
+            <p>
+                <b>Email Address:</b>
+                <input type="email" required name="email" placeholder="Company email">
+            </p>
+
+            <p>
+                <b>Phone:</b>
+                <input type="text" required name="phone number" placeholder="Company Number">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Section 1</legend>
+            <p>
+                <b>What is the name of your product/service and how does it work?</b> <br>
+                <textarea name="comment" id="" cols="70" rows="5"placeholder="Provide a detailed description"></textarea>
+            </p>
+
+            <p>
+                <b>What industry does your business belong?</b> <br>
+                <input type="radio" name="Agree" id="Business/Consulting"><label for="Business/Consulting">Business/Consulting</label><br>
+                <input type="radio" name="Agree" id="Hospitality"><label for="Hospitality">Hospitality</label><br>
+                <input type="radio" name="Agree" id="Construction"><label for="Construction">Construction</label><br>
+                <input type="radio" name="Agree" id="Health Services"><label for="Health Services">Health Services</label><br>
+                <input type="radio" name="Agree" id="Information"><label for="Information">Information</label><br>
+                <input type="radio" name="Agree" id="Leisure and Hospitality"><label for="Leisure and Hospitality">Leisure and Hospitality</label>
+            </p>
+
+            <p>
+                <b>What are the names of the executives involved in the business and what are the positions they hold? </b><br>
+                <textarea name="comment" id="" cols="70" rows="5"placeholder="Name of executives/position"></textarea>
+            </p>
+
+            <p>
+                <b>What are the main cities you are targeting?</b> <br>
+                <input type="text"> <br>
+                <input type="text"> <br>
+                <input type="text"> <br>
+                <input type="text"> <br>
+                <input type="text"> <br>
+            </p>
+
+            <p>
+                <b>What is the reason behind you starting your business?</b> <br>
+                <textarea name="Comment" id="" cols="70" rows="5">Detailed reason</textarea>
+            </p>
+
+            <p>
+                <b>What is your vision statement?</b><br>
+                <textarea name="Comment" id="" cols="70" rows="5">Vision Statement</textarea>
+            </p>
+
+            <p>
+                <b>Where are you located (geolocation)?</b><br>
+                <input type="Address" placeholder="Business Address">
+            </p>
+
+            <p>
+                <b>What or who is the competition in your industry?</b> <br>
+                <textarea name="Comment" id="" cols="70" rows="3">Competitors</textarea>
+            </p>
+
+            <p>
+                <b>What is your business objective?</b> <br>
+                <textarea name="Comment" id="" cols="70" rows="3">Detailed Obejectives</textarea>
+            </p>
+
+            <p>
+                <b>Who are your target markets?</b> <br>
+                <textarea name="Comment" id="" cols="70" rows="3">Highlight Target Markets</textarea>
+            </p>
+
+            <p>
+                <b>Provide a short biography leading up to the point you started the company</b><br>
+                <textarea name="Comment" id="" cols="70" rows="3">Company biography</textarea>
+            </p>
+
+            <p>
+                <b>What is the level of experience you have in this industry?</b>
+                <input type="range">
+            </p>
+
+            <p>
+                <b>Are you looking for an investor?</b>
+                <input type="radio" name="Yes" id="Yes"><label for="Yes">Yes</label>
+                <input type="radio" name="Yes" id="No"><label for="No">No</label>
+            </p>
+
+            <p>
+                <b>What is the amount of revenue you expect to generate in the first year of operation?</b>
+                <select name="Amount of Revenue" id="">
+                    <option value="$1000 - $10000">$1000 - $10000</option>
+                    <option value="$10000 - $50000">$10000 - $50000</option>
+                    <option value="$50000 - $100000">$50000 - $100000</option>
+                    <option value="$100000 and Above">$100000 and Above</option>
+                </select>
+            </p>
+
+            
+        </fieldset>
+
+        <p>
+            <input type="Submit" value="Submit Questionnaire">
+        </p>
+
+    </form>
+</body>
+</html>
